@@ -5,3 +5,4 @@ This file is to enable you to practice or view my progress on DOM manipulation:
     -lesson_4: Adding Elements
     -lesson_5: Modify Text
     -lesson_6: Modifying Elements,Attributes and Classes
+    -lesson_7: Remove An Element
