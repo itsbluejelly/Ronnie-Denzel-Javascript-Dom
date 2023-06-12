@@ -3,3 +3,4 @@ This file is to enable you to practice or view my progress on DOM manipulation:
     -lesson_2: Styling an element
     -lesson_3: Creating Elements
     -lesson_4: Adding Elements
+    -lesson_5: Modify Text
