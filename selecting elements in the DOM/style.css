@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    max-width: 100%;
+    background-image: linear-gradient(to right, skyblue, white);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+div{
+    border: 2px solid black;
+    border-radius: 5%;
+    padding: 10px;
+    margin: auto;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    height: 10%;
+    margin-bottom: 2px;
+    background-color: gray;
+    padding: 5px;
+    color: white;
+}
+
+h1{
+    color: black;
+    white-space: wrap;
+}
