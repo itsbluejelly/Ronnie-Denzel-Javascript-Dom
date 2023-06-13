@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-image: url(/projects/FAQ_menu/img/artem-maltsev-0CvHQ62gwY8-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    margin-bottom: 30px;
+}
+
+h2{
+    border-bottom: 1px solid black;
+    padding: 18px 0px;
+    font-size: 22px;
+    cursor: pointer;
+    transition: .5s;
+    position: relative;
+}
+
+p{
+    line-height: 1.5;
+    padding-top: 15px;
+    font: 22px;
+    width: 100%;
+    height: 150px;
+}
+
+h2::after{
+    content: '-';
+    position: absolute;
+    right: -5px;
+}
+
+.container{
+    text-align: center;
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 0 0 10px;
+    width: 85%;
+    padding: 50px;
+    border-radius: 30px;
+}
+
+h2.shown{
+    transition: .5s;
+    font-size: 30px;
+}
+
+p.shown{
+    font-size: 18px;
+    height: 10px;
+    overflow: hidden;
+}
+
+h2.shown::after{
+    content: '+';
+}
