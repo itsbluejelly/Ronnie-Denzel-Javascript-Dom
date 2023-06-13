@@ -8,3 +8,4 @@ This file is to enable you to practice or view my progress on DOM manipulation:
     -lesson_7: Remove An Element
     -lesson_8: Transversing the DOM
     -lesson_9: Event Listeners
+    -lesson_10: Event Propagation

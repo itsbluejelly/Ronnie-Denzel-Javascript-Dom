@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: monospace;
+    font-size: large;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right,rgb(36, 173, 228), rgb(22, 20, 20));
+    border: 5px solid white;
+}
+
+.container{
+    text-align: center;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10%;
+}
+
+div .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#button{
+    display: block;
+    cursor: pointer;
+    padding: 20px;
+}
+
+
+
+
+
