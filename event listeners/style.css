@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right,rgb(36, 173, 228), rgb(22, 20, 20));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    column-gap: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2{
+    color: white;
+    white-space: nowrap;
+}
+
+button{
+    font: inherit;
+    padding: 10px;
+    text-align: center;
+    background-color: inherit;
+    border: 2px solid white;
+    border-radius: 9%;
+    color: white;
+    width: 70%;
+}
+
+.container{
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 11%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 100px;
+    padding: 3%;
+    padding-top: 5%;
+}
+    
