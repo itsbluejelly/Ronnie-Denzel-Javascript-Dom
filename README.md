@@ -13,3 +13,4 @@ This file is to enable you to practice or view my progress on DOM manipulation:
         -lesson_11:Event Delegation
     ->Projects:
         -Quote Generator
+        -Modal Menu
