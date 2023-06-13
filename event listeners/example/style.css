@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right,rgb(36, 173, 228), rgb(22, 20, 20));
+    padding: 10px;
+}
+
+button{
+    font: inherit;
+    flex-grow: 1;
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    gap: 10px;
+}
+
+.box{
+    color: white;
+    background-color: inherit;
+    border: 2px solid white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: left;
+}
+
+.hidden{
+    display: none;
+}
+
+
+
