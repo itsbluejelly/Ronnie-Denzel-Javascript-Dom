@@ -11,3 +11,5 @@ This file is to enable you to practice or view my progress on DOM manipulation:
         -lesson_9: Event Listeners
         -lesson_10: Event Propagation
         -lesson_11:Event Delegation
+    ->Projects:
+        -Quote Generator

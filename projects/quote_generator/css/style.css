@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: url(/projects/quote_generator/img/jonathan-francisca-BpbkLACP64M-unsplash.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header{
+    font-size: 1.2rem;
+    color: white;
+    border: 2px solid white;
+    background-color: #262626;
+    padding: 5px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+main{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px;
+    width: 100%;
+    min-height: 300px;
+    padding: 50px 40px;
+}
+
+p{
+    line-height: 1.5;
+    font-size: 1.5rem;
+}
+
+button{
+    font: inherit;
+    background-color: #262626;
+    font-size: 1.3rem;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+main div{
+    font-size: 1.6rem;
+    color: red;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.container{
+    width: 550px;
+    height: 450px;
+}
+
+button:active{
+    background-color: lightblue;
+}
