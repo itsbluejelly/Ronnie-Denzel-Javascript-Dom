@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto&display=swap');
+
+body{
+    min-height: 100vh;
+    background-image: radial-gradient(whitesmoke, skyblue);
+    background-image: url(/projects/Stopwatch/img/background/sabri-tuzcu-r1EwRkllP1I-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+div{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 60%;
+    margin: 0 auto;
+    height: 250px;
+    border-radius: 30px;
+    box-shadow: 0 0 30px;
+}
+
+p{
+    white-space: nowrap;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 2px;
+    margin-top: 30px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+img{
+    width: calc(48px + 1rem);
+    height: auto;
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+}

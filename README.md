@@ -15,3 +15,4 @@ This file is to enable you to practice or view my progress on DOM manipulation:
         -Quote Generator
         -Modal Menu
         -FAQ Menu
+        -Stopwatch
