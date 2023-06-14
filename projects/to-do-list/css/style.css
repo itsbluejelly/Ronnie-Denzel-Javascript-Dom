@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: cursive, 'Kalam', 'Roboto';
+    min-height: 100vh;
+    background-image: radial-gradient(beige, skyblue, lightblue);
+    background-image: url(/projects/to-do-list/img/jessica-lewis-fJXv46LT7Xk-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    font: inherit;
+    width: 80%;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+
+button{
+    font: inherit;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+ul{
+    list-style-type: none;
+    width: 100%;
+}
+
+li{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    padding: 5px;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+p{
+    width: 80%;
+    text-align: left;
+    padding: 5px;
+    font-size: 1.3rem;
+    margin: auto;
+    margin-left: 10px;
+}
+
+.main-container{
+    background-color: white;
+    width: 65%;
+    border: 1px solid black;
+    padding: 20px 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttons-container{
+    display: flex;
+    justify-content: space-around;
+    column-gap: 10px;
+    width: 20%;
+    margin: 10px;
+    padding: 5px;
+}
+
+.listed-item-buttons{
+    border-radius: 10px;
+    font-size: 1.3rem;
+    padding: 5px;
+    width: 60%;
+}
+
+#add-item-button{
+    color: green;
+    border: 2px solid green;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    width: 10%;
+}
+
+#cancel-item-button{
+    color: orange;
+    border: 2px solid orange;
+}
+
+#remove-item-button{
+    color: red;
+    border: 2px solid red;
+}
+
+#add-item-button:hover{
+    color: white;
+    border: 2px solid white;
+    font-size: 1rem;
+    background-color: green;
+}
+
+#cancel-item-button:hover{
+    color: white;
+    border: 2px solid white;
+    font-size: 1.1rem;
+    background-color: orange;
+}
+
+#remove-item-button:hover{
+    color: white;
+    border: 2px solid white;
+    font-size: 1.1rem;
+    background-color: red;
+}
